@@ -57,3 +57,40 @@
 2025-04-20 00:43:26,327 - INFO - Генерация технического задания GPT...
 2025-04-20 00:43:30,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-20 00:43:30,524 - INFO - Техническое задание сохранено в: ../results\interview_001\technical_specification.txt
+2025-04-20 01:16:37,520 - INFO - PyTorch version 2.6.0 available.
+2025-04-20 01:16:38,510 - INFO - Приложение запущено.
+2025-04-20 01:16:38,511 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-20 01:16:38,563 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-20 01:16:38,563 - INFO - Загрузка модели Whisper...
+2025-04-20 01:17:42,399 - INFO - Распознавание речи...
+2025-04-20 01:17:44,661 - INFO - Распознавание завершено.
+2025-04-20 01:38:01,724 - INFO - PyTorch version 2.6.0 available.
+2025-04-20 01:38:02,458 - INFO - Приложение запущено.
+2025-04-20 01:38:02,459 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-20 01:38:02,504 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-20 01:38:02,504 - INFO - Загрузка модели Whisper...
+2025-04-20 01:38:21,426 - INFO - Распознавание речи...
+2025-04-20 01:38:23,281 - INFO - Распознавание завершено.
+2025-04-20 01:43:43,844 - INFO - Processing audio with duration 00:25.565
+2025-04-20 01:43:43,909 - INFO - VAD filter removed 00:00.000 of audio
+2025-04-20 01:43:54,532 - INFO - Detected language 'ru' with probability 0.99
+2025-04-20 01:55:15,737 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-20 01:55:15,742 - INFO - Готово! Полученный результат находится в "results"
+2025-04-20 01:55:15,743 - INFO - Генерация технического задания GPT...
+2025-04-20 01:55:19,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-20 01:55:19,757 - INFO - Техническое задание сохранено в: results\interview_006\technical_specification.txt
+2025-04-20 02:05:02,191 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-20 02:05:02,944 - INFO - Приложение запущено.
+2025-04-20 02:05:02,945 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-20 02:05:02,991 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-20 02:05:02,991 - INFO - Загрузка модели Whisper...
+2025-04-20 02:05:03,830 - INFO - Распознавание речи...
+2025-04-20 02:05:05,012 - INFO - Распознавание завершено.
+2025-04-20 02:05:23,228 - INFO - Processing audio with duration 00:25.565
+2025-04-20 02:05:23,315 - INFO - VAD filter removed 00:00.000 of audio
+2025-04-20 02:05:33,665 - INFO - Detected language 'ru' with probability 1.00
+2025-04-20 02:06:16,865 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-20 02:06:16,870 - INFO - Готово! Полученный результат находится в "results"
+2025-04-20 02:06:16,871 - INFO - Генерация технического задания GPT...
+2025-04-20 02:06:19,963 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-20 02:06:19,968 - INFO - Техническое задание сохранено в: results\interview_007\technical_specification.txt

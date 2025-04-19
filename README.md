@@ -15,6 +15,12 @@ pip install -r requirements.txt
 выполнить очистку зависимостей и подтяните с флагом --no-cache-dir.
 
 ````
+pip cache purge
+rm -rf ~/.cache/whisper
+rm -rf ~/.cache/torch
+rm -rf ~/.cache/huggingface
+
+pip install --upgrade pip
 pip install --no-cache-dir -r requirements.txt
 ````
 
@@ -42,7 +48,7 @@ python main.py "файл_видео.mp4"
 
 
 
-Больших объемов видео-файлов могут занять некоторое время
+Первый запуск - может быть длительным. Больших объемов видео-файлов могут занять некоторое время
 
 
 
