@@ -5,6 +5,17 @@ import whisper
 from settings.config import logger
 
 def extract_audio_ffmpeg(video_path, audio_path="audio_output/audio.wav"):
+    """
+    Извлекает аудиодорожку из видеофайла с помощью ffmpeg и сохраняет её в формате WAV.
+
+    params:
+        video_path (str): Путь к исходному видеофайлу.
+        audio_path (str): Путь, по которому будет сохранён извлечённый аудиофайл (по умолчанию: "audio_output/audio.wav").
+
+    return:
+        str: Путь к сохранённому аудиофайлу.
+
+    """
     os.makedirs(os.path.dirname(audio_path), exist_ok=True)
 
     logger.info(f"Извлечение аудио из {video_path} с помощью ffmpeg...")
@@ -19,6 +30,16 @@ def extract_audio_ffmpeg(video_path, audio_path="audio_output/audio.wav"):
 
 
 def transcribe_audio(audio_path):
+    """
+       Выполняет распознавание речи из аудиофайла с помощью модели Whisper.
+
+       params:
+           audio_path (str): Путь к аудиофайлу в формате WAV.
+
+       return:
+           dict: Результат распознавания речи, включая текст и сегменты.
+    """
+
     logger.info(f"Загрузка модели Whisper...")
     model = whisper.load_model("base")  # можно заменить на medium/large для большей точности
 
@@ -30,6 +51,18 @@ def transcribe_audio(audio_path):
 
 
 def accept_file(input_file):
+    """
+        Принимает путь к видеофайлу, проверяет его существование, извлекает аудио
+        и выполняет транскрибацию.
+
+        params:
+            input_file (str): Путь к видеофайлу.
+
+        return:
+            str: Путь к извлечённому аудиофайлу.
+
+    """
+
     if len(input_file) < 2:
         logger.error("❌ Укажите путь к видеофайлу.\nПример: python extract_audio.py video.mp4")
 

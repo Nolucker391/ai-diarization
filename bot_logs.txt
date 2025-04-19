@@ -1,0 +1,29 @@
+2025-04-19 23:50:03,723 - INFO - PyTorch version 2.6.0 available.
+2025-04-19 23:50:04,471 - INFO - Приложение запущено.
+2025-04-19 23:50:04,471 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-19 23:50:04,515 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-19 23:50:04,515 - INFO - Загрузка модели Whisper...
+2025-04-19 23:50:05,134 - INFO - Распознавание речи...
+2025-04-19 23:50:06,975 - INFO - Распознавание завершено.
+2025-04-19 23:50:25,303 - INFO - Processing audio with duration 00:25.565
+2025-04-19 23:50:25,370 - INFO - VAD filter removed 00:00.000 of audio
+2025-04-19 23:50:35,904 - INFO - Detected language 'ru' with probability 1.00
+2025-04-19 23:51:28,067 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-19 23:51:28,072 - INFO - Готово! Полученный результат находится в "results"
+2025-04-19 23:51:28,073 - INFO - Генерация технического задания GPT...
+2025-04-19 23:51:34,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-19 23:51:34,422 - INFO - Техническое задание сохранено в: results\interview_003\technical_specification.txt
+2025-04-19 23:53:18,988 - INFO - PyTorch version 2.6.0 available.
+2025-04-19 23:53:19,684 - INFO - Приложение запущено.
+2025-04-19 23:53:19,685 - INFO - Извлечение аудио из .\moovies\english_moovie.mp4 с помощью ffmpeg...
+2025-04-19 23:53:19,870 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-19 23:53:19,870 - INFO - Загрузка модели Whisper...
+2025-04-19 23:53:20,397 - INFO - Распознавание речи...
+2025-04-19 23:53:39,964 - INFO - Распознавание завершено.
+2025-04-19 23:55:10,737 - INFO - Processing audio with duration 03:58.167
+2025-04-19 23:55:11,288 - INFO - VAD filter removed 00:22.935 of audio
+2025-04-19 23:55:21,915 - INFO - Detected language 'en' with probability 1.00
+2025-04-20 00:00:19,373 - INFO - Готово! Полученный результат находится в "results"
+2025-04-20 00:00:19,523 - INFO - Генерация технического задания GPT...
+2025-04-20 00:00:27,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-20 00:00:27,793 - INFO - Техническое задание сохранено в: results\interview_004\technical_specification.txt

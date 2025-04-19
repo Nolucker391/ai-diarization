@@ -3,6 +3,13 @@ import os
 from settings.config import RESULTS_DIR, logger
 
 def _get_next_result_dir() -> str:
+    """
+        Создаёт новую директорию для сохранения результатов.
+
+        return:
+            str: Полный путь к созданной директории результатов.
+    """
+
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
     existing = [
@@ -26,6 +33,16 @@ def _get_next_result_dir() -> str:
     return full_path
 
 def save_transcript(transcript: str) -> str:
+    """
+       Сохраняет текст расшифровки (транскрипта) в файл "transcript.txt" в новой директории результатов.
+
+       params:
+           transcript (str): Текст стенограммы аудио (результат распознавания речи).
+
+       return:
+           str: Путь к директории, где был сохранён транскрипт.
+    """
+
     save_dir = _get_next_result_dir()
     path = os.path.join(save_dir, "transcript.txt")
 

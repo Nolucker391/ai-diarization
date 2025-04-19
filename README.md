@@ -57,4 +57,10 @@ set HTTPS_PROXY=http://your-proxy:port
 
 
 
-источник: https://github.com/MahmoudAshraf97/whisper-diarization
+
+
+исходники: 
+
+| https://github.com/MahmoudAshraf97/whisper-diarization   |
+|------------------------------------------------------------ |
+| https://www.youtube.com/watch?v=oHWuv1Aqrzk                  |
