@@ -63,4 +63,4 @@ set HTTPS_PROXY=http://your-proxy:port
 
 | https://github.com/MahmoudAshraf97/whisper-diarization   |
 |------------------------------------------------------------ |
-| https://www.youtube.com/watch?v=oHWuv1Aqrzk                  |
+| https://www.youtube.com/watch?v=R5XVWIUQbfI                  |
