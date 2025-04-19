@@ -33,10 +33,15 @@ def main():
 
     # 4. Генерация ТЗ на основе транскрипта
     logger.info("Генерация технического задания GPT...")
-    system_prompt = load_prompt_files()
-    extra_prompts = load_prompt_files(folder_path="prompts", exclude=["system.txt"])
+    # system_prompt = load_prompt_files()
+    extra_prompts = load_prompt_files(folder_path="prompts")
 
-    full_prompt = f"{system_prompt}\n\n{extra_prompts}\n\nСтенограмма:\n{transcript}"
+    full_prompt = f"\n{extra_prompts}\n\nСтенограмма:\n{transcript}"
+    # full_prompt = (
+    #     "На основе следующей информации сгенерируй техническое задание. "
+    #     "Используй структурированный подход, как указано ниже.\n\n"
+    #     f"{extra_prompts}\n\nСтенограмма:\n{transcript}"
+    # )
     gpt_response = GPTAssistant.chat(message=full_prompt)
 
     # 5. Сохраняем результаты

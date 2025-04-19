@@ -27,3 +27,33 @@
 2025-04-20 00:00:19,523 - INFO - Генерация технического задания GPT...
 2025-04-20 00:00:27,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-20 00:00:27,793 - INFO - Техническое задание сохранено в: results\interview_004\technical_specification.txt
+2025-04-20 00:39:03,466 - INFO - PyTorch version 2.6.0 available.
+2025-04-20 00:39:04,198 - INFO - Приложение запущено.
+2025-04-20 00:39:04,198 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-20 00:39:04,242 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-20 00:39:04,242 - INFO - Загрузка модели Whisper...
+2025-04-20 00:39:04,776 - INFO - Распознавание речи...
+2025-04-20 00:39:06,547 - INFO - Распознавание завершено.
+2025-04-20 00:39:24,141 - INFO - Processing audio with duration 00:25.565
+2025-04-20 00:39:24,207 - INFO - VAD filter removed 00:00.000 of audio
+2025-04-20 00:39:35,080 - INFO - Detected language 'ru' with probability 1.00
+2025-04-20 00:40:42,376 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-20 00:40:42,381 - INFO - Готово! Полученный результат находится в "results"
+2025-04-20 00:40:42,383 - INFO - Генерация технического задания GPT...
+2025-04-20 00:40:46,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-20 00:40:46,020 - INFO - Техническое задание сохранено в: results\interview_005\technical_specification.txt
+2025-04-20 00:42:13,092 - INFO - PyTorch version 2.6.0 available.
+2025-04-20 00:42:13,807 - INFO - Приложение запущено.
+2025-04-20 00:42:13,808 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-20 00:42:13,851 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-20 00:42:13,851 - INFO - Загрузка модели Whisper...
+2025-04-20 00:42:14,393 - INFO - Распознавание речи...
+2025-04-20 00:42:16,374 - INFO - Распознавание завершено.
+2025-04-20 00:42:33,923 - INFO - Processing audio with duration 00:25.565
+2025-04-20 00:42:33,991 - INFO - VAD filter removed 00:00.000 of audio
+2025-04-20 00:42:44,774 - INFO - Detected language 'ru' with probability 1.00
+2025-04-20 00:43:26,322 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-20 00:43:26,327 - INFO - Готово! Полученный результат находится в "results"
+2025-04-20 00:43:26,327 - INFO - Генерация технического задания GPT...
+2025-04-20 00:43:30,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-20 00:43:30,524 - INFO - Техническое задание сохранено в: ../results\interview_001\technical_specification.txt
