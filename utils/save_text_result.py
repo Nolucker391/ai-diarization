@@ -1,6 +1,6 @@
 import os
 
-from settings.config import RESULTS_DIR
+from settings.config import RESULTS_DIR, logger
 
 def _get_next_result_dir() -> str:
     os.makedirs(RESULTS_DIR, exist_ok=True)
@@ -33,3 +33,29 @@ def save_transcript(transcript: str) -> str:
         f.write(transcript)
 
     return save_dir
+
+def load_prompt_files(folder_path="prompts", exclude=None):
+    """
+    Загружает все .txt файлы из указанной папки и объединяет в одну строку.
+    exclude — список имён файлов, которые нужно исключить.
+    """
+    prompt_parts = []
+    exclude = exclude or []
+
+    for filename in sorted(os.listdir(folder_path)):
+        if filename.endswith(".txt") and filename not in exclude:
+            with open(os.path.join(folder_path, filename), "r", encoding="utf-8") as f:
+                prompt_parts.append(f.read().strip())
+
+    return "\n\n".join(prompt_parts)
+
+def save_results_file(gpt_response: str, save_dir: str) -> str:
+    """
+    Сохраняет результат работы GPT (техническое задание) в ту же папку, где и transcript.
+    """
+    path = os.path.join(save_dir, "technical_specification.txt")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(gpt_response)
+
+    logger.info(f"Техническое задание сохранено в: {path}")
+    return path

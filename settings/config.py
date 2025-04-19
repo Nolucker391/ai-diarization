@@ -1,4 +1,5 @@
 import logging
+import os
 
 from dotenv import load_dotenv
 
@@ -19,9 +20,10 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # API ключ
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Пути
-RESULTS_DIR = "../results"
+RESULTS_DIR = "results"
 
 
 # Параметры обработки
