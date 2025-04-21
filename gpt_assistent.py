@@ -4,14 +4,10 @@ from dotenv import load_dotenv
 
 class GPTAssistant:
     """
-    Интерфейс для работы с OpenAI API:
-    - chat(): GPT-3.5 / GPT-4 диалоговый режим
-    - complete(): устаревший Completions API (text-davinci-003)
-    - moderate(): проверка текста на нарушение политик
+    GPT-ассистент для генерации ТЗ их транскрита.
 
-    Все методы статические, состояния не хранят.
+    Используется модель: GPT-4-Turbo
     """
-
     @staticmethod
     def _load_api_key():
         """
@@ -26,7 +22,7 @@ class GPTAssistant:
     @staticmethod
     def chat(
         message: str,
-        model: str = "gpt-3.5-turbo",
+        model: str = "gpt-4-turbo",
         temperature: float = 0.7,
         max_tokens: int = 1024,
         top_p: float = 1.0,
@@ -54,7 +50,9 @@ class GPTAssistant:
         """
         GPTAssistant._load_api_key()
 
-        messages = [{"role": "system", "content": message}]
+        messages = [
+            {"role": "system", "content": message},
+        ]
         client = openai.OpenAI()
         response = client.chat.completions.create(
             model=model,

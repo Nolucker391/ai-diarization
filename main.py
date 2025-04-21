@@ -12,12 +12,12 @@ from gpt_assistent import GPTAssistant
 
 def main():
     if len(sys.argv) < 2:
-        logger.error("❌ Укажите путь к видеофайлу.\nПример: python main.py video.mp4")
+        logger.error("Укажите путь к видеофайлу.\nПример: python main.py video.mp4")
         sys.exit(1)
 
     video_path = sys.argv[1]
     if not os.path.isfile(video_path):
-        logger.error("❌ Указанный файл не найден.")
+        logger.error("Указанный файл не найден.")
         sys.exit(1)
 
     # 1. Извлечение аудио
@@ -53,3 +53,4 @@ def main():
 if __name__ == "__main__":
     logger.info("Приложение запущено.")
     main()
+

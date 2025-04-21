@@ -1,0 +1,119 @@
+Speaker 1:  
+
+Speaker 0: Hi, how are you?  
+
+Speaker 1: I'm doing great.  
+
+Speaker 2: How are you?  
+
+Speaker 0: Wow, I've got an army here.  
+
+Speaker 1: Yeah.  I just want to clarify, are we waiting for someone from your side as well, or we can start?  
+
+Speaker 0: No, I'm... hang on, let me turn my camera on.  
+
+Speaker 1: Oh, yeah, hello.  
+
+Speaker 0: How are you?  
+
+Speaker 1: Great, great, just... just starting today, you know.  
+
+Speaker 0: So you're the Caucasian guy.  
+
+Speaker 1: Yeah.  
+
+Speaker 0: What country are you from?  He says, I'm Caucasian.  It's like, I'm Asian.  Yeah.  Let me guess what you look like.  You look like a Russian, Ukrainian or one of those type guys.  That's what you look like.  
+
+Speaker 1: Yeah.  Originally, I'm from Azerbaijan.  hope you heard about this country.  
+
+Speaker 0: No, it's too small.  
+
+Speaker 1: Yeah, this is a country near Turkey, Russia, like there.  
+
+Speaker 0: Okay.  So we've got here, we got Cyril, no Kiril.  How do you say your name, Kiril?  
+
+Speaker 2: Yes, Kiril.  
+
+Speaker 0: Kiril.  And who's the other good-looking Anton?  Anton.  Anton.  He definitely sounds Russian.  Anton.  You're Russian or you're not Russian?  
+
+Speaker 2: I was born in Russia and now I live in Armenia.  
+
+Speaker 0: Armenia.  Okay.  So tell me, You guys all have different expertise, I assume, and you're part of a team?  
+
+Speaker 1: Yeah.  We've seen in your description that you're looking for the developer who can join to your team.  So if you don't mind, that would be good if you could tell us about your project.  Because, yeah, we're working like a team, but we can, like, Usually we're working on our staff basis so we can deliver the right and good expertise developer who can help you, can join to your team.  So it depends on your requirements.  So if you don't mind, let's start from this point.  
+
+Speaker 0: Okay, no problem.  You've got two documents here that I've uploaded to your Upwork.  The first document actually outlines the whole entire project, which is an ERP system, or you can call it, I call it a management system.  But it is an ERP system, which is separate modules.  And each module needs to connect to each other through the microservices.  And we need to build the actual, all the modules.  And at the same time, because we're in 2025, I'd like us to focus on building the modules, but with the AI integrations.  So the days of software being used to store information, I believe they're in the past.  So it's more, you need, the information is needed, but the key factor why you have all that information is for the AI to be able to provide feedback or suggestions or conclusions or to help that business actually succeed.  compared to you know, dumping data in somebody's computer and it just stays there.  Nobody even knows that it's in there unless you need it.  So, it's a totally different approach.  So, I contribute the business logic.  I'm classified as a fairly advanced, fairly high level in the business arena.  I've managed large corporations, small companies.  I've started many different small projects.  I've led huge R&D teams.  So my background is more focused on the business flavor.  This particular software is for the small business people.  And so small to medium is our main audience.  We do not focus on big corporations that have the multilateral processing bullshit.  Too complicated for me.  don't have the time, don't have the energy, a small guy, whether it's one person running a business or he has two or three people running the business, that's what the system is mostly designed for.  So it is going to be an affordable option for people that run, whether you run a little restaurant, whether you run a hair salon cutting business, whether you run, you know, carpentry type of business, it doesn't really matter.  what industry you're in.  Everyone needs accounting, everyone needs human resources, everyone needs, you know, so the system is designed with the what's called the foundations that, you know, and then it's going to be configured to suit the specific industry.  For example, a restaurant needs menus, It needs table arrangements.  Manufacturing don't need menus.  Restaurant don't need manufacturing module.  So we will build the manufacturing module for the manufacturers, but not for, so we will configure it and we'll utilize AI to configure it.  Try to utilize AI to help the small business set their business and get it up and running.  What's the easiest way?  I can provide that solution.  For example, you're a business guy, right?  You maybe run yourself or a couple of partners, right?  And you want to use this system and you've got accounting and you've got some human resources, you've got some customers.  and what is the easiest way for you to A, access my system and then B, enter your data into the system?  What is the easiest way?  So, That's the system that I'm looking at building.  So I'm going to need someone that is more in line with understanding the modules.  The good thing about us is that we're going to build the system from day one, meaning that we're not grabbing an ERP system already existing in the market and trying to adapt AI into a system that was designed for a totally different purpose, totally different world.  And you're trying to make it all work, which is quite challenging and it's not quite 100% suitable.  This one, you've got the freedom to, okay, in product, what do we need in product?  that, you know, we understand that we're not developing product for someone to sit on the desktop and pull up screens and try to enter information.  We want to be able to, you know, if you want to enter it via voice, whether you want to enter it via mobile, whether you can make it more easier for the user to enter it, and how much AI can I put into product, for example.  So we're going to look at product and say, okay, we can put what into product, right?  So, and we go into inventory, what can we put, you know, what can AI do for inventory?  So a small example, you've got sales, which is e-commerce platform, right?  There is sales, there's a record, there's a history of sales.  With the sales, you're able to utilize AI to project sales ahead.  So you end up with that data, which then you can then work out how to balance your inventory.  The AI balance your inventory, not you balance the inventory.  Because most users are not that, you know, I just buy too much shit one time, right?  Or I don't, I run out of shit because I'm too disorganized, right?  Let's call it typical business guy falls into that category.  So the way I look at it is that we are in a perfect opportunity to build the system.  So I need to find a team, that is capable.  So can I please understand you guys, now you've got a basic understanding what I'm looking for.  I've sent you two documents, one is the actual system, one is the tech for the AI.  And once you guys read it, then you guys need to provide me some feedback.  But for the start, you can tell me about you guys.  
+
+Speaker 1: uh yeah uh john thank you for the interesting intro.  uh like telling us about your project.  if you don't mind i will ask you a few questions like some question will be from from the technical side from part would be from the business uh side of the project.  so um the first question from my side is just want to understand uh like what state of the development is the project currently at?  and the first question and if Okay, let's start from this first question, if you don't mind.  
+
+Speaker 0: What I did was, in any development, the first process is to clear up what it is that you want built.  A lot of people.  Some people dive in and they work what they want as they go along.  Some people sit there for a long time and try to work out what it is they want.  So what we've done so far is we've built wireframes.  I will share that with you now.  Give me two seconds.  So basically, What we've done so far is we've built all the wireframes for 90% of the modules.  The wireframes don't have the AI integration in it, but it has all the functionalities and it has a logic.  So I'll show you one very quickly.  What is this?  Team members.  You guys have, so you go to team members, you can add a new team member.  When you're entering, you select what role they're in, location, Canada, this is the permissions, what they can access, what they cannot access.  Then you press save.  You enter their salary, commission, bonuses, different countries, different areas have different configurations.  This is for China.  So, and then you can enter a special bonus for special persons, et cetera.  Allowances, if you have allowances.  Social benefits, if you have social benefits.  Tax set up, depending on which country.  Password.  roster.  This is all related to, for example, when you employ somebody, you set them from nine to five, five days a week.  So anytime above that or beyond that, it's classified as overtime.  Do you capture overtime?  This is how the system knows.  So because the system will be managing the employees instead of a manager.  So each employee is logs in.  uh via face recognition he's now working.  if he's on site he has to scan himself on.  the phone message gets sent to the boss he's working.  so the system now starts to record that he's actually on board for the day and when it's time to knock off the system reminds me hey it's time to buzz off go home and should he you know The boss wants him to do additional time.  He needs then to send, sorry, boss, ask more time, please.  Message goes to boss.  Boss says, yes, done.  That's recorded.  So all of this over time.  So the roster has that relationship where it's the set time for their work.  If they work the additional hours.  Commission setups, we have a different configuration.  We have team members that can earn commission.  We have agents, we have salespeople, we have all different arrangements.  Some people can opt to do additional types of tasks.  For example, depending on the business, like for example, an e-commerce store that has local delivery, for example, they can opt to do local delivery after working hours.  So when you're setting up a team member, you have all these configurations.  and you just follow this as you can see.  and what commission success.  so this gives you a team member module then if you go to uh product for example it's much probably easier.  it is a product module so you can add a new product select drop downs blah blah blah.  You can upload images, blah, blah, blah, save product type.  You can add a new type, a new category, a product rating, labeling.  When you enter new products, you can print labels, et cetera.  And there are special discounts available on different products.  So in the product module, this is what you're going to build, right?  So you just follow precisely what I've already created in the wireframes.  And this is what the backend and the frontend guy is going to be doing.  Build this and at the same time, the only thing this doesn't have is what AI we're going to deploy in each module and in the overall system.  
+
+Speaker 1: We've started from this point.  Oh, are you still sharing?  Sorry.  
+
+Speaker 0: Yeah, I'm finished so it's enough for you guys to understand.  
+
+Speaker 1: I just want to clarify, if we started speaking about the modules of your project, I just want to understand what is the top priority, like which module do you want to make the top priority right now?  And I just want to understand the same question is about the team.  So do you have the backend and frontend team?  So from this retrospective, can you please tell us what is the top priority of the models and some words about the team?  
+
+Speaker 0: OK, so in relation to the team first, I am now looking for a team.  whether I recruit individuals or whether I recruit one that then has others, I'm open to both.  So I'm not closed on either option.  Second, in relation to which is first, second and third, naturally, you got to set up your first, you got to set up your platform.  And then you got to, you know, have your permission.  So you can't get anyone in unless you set up all your permissions or your foundations and then we'll start with.  possibly you know maybe product and inventory or you guys being technical may say no we prefer you know to start with customer or e-commerce.  I'm open to suggestions but I have a full-blown business that will be testing our system.  you know, upon us completing, you know, maybe one or two or three modules or one or two, whatever, I have a company that will commence using it with a team that will be testing it to see how it performs, how it works.  And we just have a separate team to build.  Does that answer your question?  
+
+Speaker 1: Yeah.  Yeah.  Thank you.  And Just want to clarify, as I correctly understand from your job description or from Upwork, so you have the team who are working right now on your ERP system, as you told us.  So right now you're looking for someone, as you said, you want someone who can help you with integration, the AI part for your project, just to allow to your end customers, Working with your project not only like typing the information you want to mix.  It's my mash either like For example using the recorders Etc.  I use LLM systems, etc.  Am I right?  
+
+Speaker 0: Now you missed a few points.  I Have a business that my wife has a company.  Yeah Imports and has sales to massive amount of customers.  Yeah, so she's going to be a guinea pig to test the system that we're gonna build.  So regarding the building of the system, A, if I have a team that wants to build a whole system for me, give me a price to build a whole system, I need to know who they are, their capabilities, et cetera.  I can consider that.  Second, I can consider having one person and I then continue recruiting the relevant backends, frontends, whatever I need to recruit.  So I'm open to both.  And today I don't have a team.  This way of friends was done back in 219.  Then the virus came out.  I put the project on hold and I haven't touched it.  And I'm now back saying, okay, it's now time for us to build it.  The virus bullshit is over.  So it's time for us to move our asses.  So tell me about you guys.  You haven't given me an answer on who you are, what you are and what you're capable.  See these lovely guys behind, they're getting bored.  
+
+Speaker 1: Yeah.  So Kirill, I think you can take this part and Kirill tell you about our experience with creating that kind of systems.  And then I will tell you more about our background.  
+
+Speaker 0: Okay.  
+
+Speaker 2: Yes.  We recently and it's a project developing ERP system.  So that was a company that helps people find a job.  So we were integrating a lot of AI solutions in that project.  For example, a new person comes and records an interview, tells about experience, radiation, etc.  After that, that video interview is being processed.  After that, the large language models make from that video structured file that contains information about education, work experience, highs, lows, strong sides, weak sides, etc.  And after that, finds semantically the best fitting project for that employer.  
+
+Speaker 0: So it's more like a recruiting agent?  
+
+Speaker 2: Yeah.  
+
+Speaker 0: Okay.  
+
+Speaker 2: So the first project for my side is, do I understand this correctly?  You want to integrate an AI agent in every model of your ERP?  
+
+Speaker 0: First, you're going to build the ERP system and at the same time integrate AI.  
+
+Speaker 2: Okay, so what exactly do you want that?  
+
+Speaker 0: agent to do?  Okay, I don't call it agent, I call it AI, meaning that I want a dumb agent, I want an intelligent system, meaning that I have now provided you a document that has a better explaining of what integrations I'm looking for, and my suggestion is you read through it, And once you've come more familiar with the integration technologies that I'm looking at, I'm going to ask you two things.  One, this is currently available in the market.  I can integrate all of these tech.  I just need to find somebody that understands these areas and integrate it.  Secondly, when I integrate ChatGPT into my system, I'm having to pay a fee for the rest of my journey.  So in some areas, if I find some smart people that are capable of creating some of our own AI without compromising on quality, there's a lot of rubbish.  AI.  I call it dumb.  There's not intelligence.  It's dumb.  It's A.D.  not AI, meaning that I'm a big company and I am so great, but I will put a dumb representative representing my company.  I can go on the website right now and find thousands of those companies out there that have dumber, and that's so embarrassing because, you know, it reflects the company.  I've got a company and I want the dumbest asshole to represent my company.  That's called an AI, AD, not an AI.  So I want completely the opposite.  I want zero compromise.  So if I have to use ChachiBT, because there is nothing you can do for me, or there's nothing in the market that can be a cheaper alternative without compromising quality, then I will use ChachiBT, for example.  So it's more, if you see my document, it's very clear.  It's nothing's complicated.  You will see that the AI tech wear how I want it.  Then I have another document that tells you in more specific as to where the AI will be integrated into its functionalities.  But from the current documents I provide is enough for you to get an understanding of the system.  And if we decide that you are right, then we can share the information.  Are you on the same page, young men?  
+
+Speaker 2: Yeah, yeah.  You know, it's not necessary to use chat GPT.  Let me start from that.  Of course, you can use your own on-premise working large language model, but you need your own server for that.  You have to rent a server with a graphical adapters and it's not always cheaper than using ChatGPT.  So our everyday practice is starting from the API services, maybe ChatGPT, maybe DeepSeek, maybe etc.  
+
+Speaker 0: Stay away from DeepSeek.  I don't believe DeepSeek.  I think it's rubbish.  Chinese, anything in Chinese, I'm not interested.  Chinese only know how to do three things in their life.  Steal, lie.  That's Chinese specialty, right?  And I'm in China, so I've been here for 20 years, so I know them very well.  
+
+Speaker 1: Okay.  
+
+Speaker 2: So even if you use chat GPT, you don't have to use the most intelligent, the newest ChatGPT model for every test.  After that, there is a company named Entropic with a much cheaper API, large language model, but sometimes better than ChatGPT.  And when the MVP is working great and the scales are going higher, it's time to consider using on-premise flash language models, but we should start from the API services first.  
+
+Speaker 0: Okay, well, have a read through the document, have a look through the project, and then come back and say, okay, look, I don't agree with what I agree with, and I would change A or B, and that way we need to reach the same page of understanding.  That's very important because if we go into a contract base, I'm going to need us to be on the same page and I'm going to want you guys to provide and you guys want to be paid.  So we need to be on the same understanding.  I've created a document, call it a starting point.  You don't agree, put it on the table why you don't agree and what you want to replace it with.  But if you agree with everything I said, great.  Let's go on with it.  
+
+Speaker 1: Okay, sounds good.  
+
+Speaker 0: From the A point of view, are we clear on that one?  
+
+Speaker 2: Yeah.  
+
+Speaker 0: The gentleman on the left, what do you do?  
+
+Speaker 1: He's the CTO.  Today he is a bit quiet.  So yeah, Anton.  
+
+Speaker 2: I have enough questions because it seems that we need to read your documents.  And after it, I think we will have some questions, technical questions.  And I think we will be able to do an offer for you.  Yeah.  
+
+Speaker 1: John, if you don't mind, I just want to clarify.  the last question from my side is about the deadlines.  So if you could tell us about the deadlines, that would be great.  
+
+Speaker 0: Okay, so I'm looking at this, I think there's 14 modules.  Let me send you the modules that there are.  By the way, your picture is more handsome than you are in real life in case you don't want to know.  Where am I?  Okay, so this is the in team members.  There are 27 screens yet.  And I changed this.  Chinese rubbish members, 27 screens.  Okay, so I've just sent it to you.  That's how many modules there are.  So these are the modules.  that, where I've got assumption means I haven't built the wireframes for these yet.  So I'm assuming there's going to be 25 screens, same logic, same as the other ones, right?  But I'm assuming, so the B2B portal, as you can see here, I'm assuming there's going to be 45 screens for that module.  yeah okay so you can get a better understanding of the modules.  continue.  
+
+Speaker 1: yeah uh sounds good.  uh we will read all the documents and we'll get back to usf.  uh with the whole estimation of the project.  
+
+Speaker 0: so in relation to your point uh i anticipate anyone with half capability depending on how many resources you want to throw.  For example, you put one backend, one frontend guy, right?  You're going to have a time frame of, right?  If you put two backend guys, right?  Possibly two frontend guys, you're going to have a shorter time frame.  So, I prefer to have what's called a perfect balance where you're not wasting resources.  Resources means that you haven't organized things properly and you we've got too many people and not enough coordination.  So I want a program where for example product I anticipate 27 screens.  you should finish it within a week maybe two weeks.  in inventory you're going to run between two maybe three weeks right.  so that's a time frame that I'm looking at.  so whether you have you know two or four people they're doing module A and then module B or two modules at the same time.  That's for you guys to tell me.  I don't know your resources.  I don't know what you want to throw at this, but I wouldn't want this to exceed six, maximum nine months.  So around six to nine is the perfect time frame.  
+
+Speaker 1: Sounds good.  okay john thank you for your time.  thank you for explanation.  we will try to get back to you as fast as possible.  
+
+Speaker 0: okay let me know.  
+
+Speaker 1: ciao guys thank you so much.  have a nice day.  
+
+Speaker 2: thank you have a nice day.

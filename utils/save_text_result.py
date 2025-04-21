@@ -14,19 +14,20 @@ def _get_next_result_dir() -> str:
 
     existing = [
         name for name in os.listdir(RESULTS_DIR)
-        if os.path.isdir(os.path.join(RESULTS_DIR, name)) and name.startswith("interview_")
+        if os.path.isdir(os.path.join(RESULTS_DIR, name)) and name.startswith("example_callups_")
     ]
 
     indexes = []
     for name in existing:
         try:
-            index = int(name.split("_")[1])
+            index_str = name.split("example_callups_")[1]
+            index = int(index_str)
             indexes.append(index)
         except (IndexError, ValueError):
             continue
 
     next_index = max(indexes, default=0) + 1
-    folder_name = f"interview_{next_index:03d}"
+    folder_name = f"example_callups_{next_index:03d}"
     full_path = os.path.join(RESULTS_DIR, folder_name)
 
     os.makedirs(full_path, exist_ok=False)

@@ -32,8 +32,9 @@ def transcribe_audio(audio_path:str,
                      whisper_model_name:str="large-v3",
                      suppress_numerals:bool=True,
                      batch_size:int=8,
-                     language:str=None,
-                     device:str='cpu'):
+                     language:str="en",
+                     device: str = 'cuda' if torch.cuda.is_available() else 'cpu'
+):
 
     '''выделению вокала из остального аудио'''
     if enable_stemming:
@@ -51,7 +52,11 @@ def transcribe_audio(audio_path:str,
         vocal_target = audio_path
 
     '''Расшифровка звука с использованием шепота и изменение временных меток с помощью принудительного выравнивания'''
-    whisper_model = faster_whisper.WhisperModel(whisper_model_name, device=device)
+    whisper_model = faster_whisper.WhisperModel(
+        whisper_model_name,
+        device=device,
+        compute_type="float16" if device == "cuda" else "int8"
+    )
 
     whisper_pipeline = faster_whisper.BatchedInferencePipeline(whisper_model)
     audio_waveform = faster_whisper.decode_audio(vocal_target)
@@ -118,7 +123,8 @@ def transcribe_audio(audio_path:str,
                     channels_first=True,)
 
     '''Запись дневника диктора с использованием модели NeMo MSDD'''
-    msdd_model = NeuralDiarizer(cfg=create_config(temp_path)).to("cpu")
+    # msdd_model = NeuralDiarizer(cfg=create_config(temp_path)).to("cpu")
+    msdd_model = NeuralDiarizer(cfg=create_config(temp_path)).to(device)
     msdd_model.diarize()
     print(13)
     del msdd_model

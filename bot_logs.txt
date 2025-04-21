@@ -1,96 +1,196 @@
-2025-04-19 23:50:03,723 - INFO - PyTorch version 2.6.0 available.
-2025-04-19 23:50:04,471 - INFO - Приложение запущено.
-2025-04-19 23:50:04,471 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
-2025-04-19 23:50:04,515 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-19 23:50:04,515 - INFO - Загрузка модели Whisper...
-2025-04-19 23:50:05,134 - INFO - Распознавание речи...
-2025-04-19 23:50:06,975 - INFO - Распознавание завершено.
-2025-04-19 23:50:25,303 - INFO - Processing audio with duration 00:25.565
-2025-04-19 23:50:25,370 - INFO - VAD filter removed 00:00.000 of audio
-2025-04-19 23:50:35,904 - INFO - Detected language 'ru' with probability 1.00
-2025-04-19 23:51:28,067 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
-2025-04-19 23:51:28,072 - INFO - Готово! Полученный результат находится в "results"
-2025-04-19 23:51:28,073 - INFO - Генерация технического задания GPT...
-2025-04-19 23:51:34,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-04-19 23:51:34,422 - INFO - Техническое задание сохранено в: results\interview_003\technical_specification.txt
-2025-04-19 23:53:18,988 - INFO - PyTorch version 2.6.0 available.
-2025-04-19 23:53:19,684 - INFO - Приложение запущено.
-2025-04-19 23:53:19,685 - INFO - Извлечение аудио из .\moovies\english_moovie.mp4 с помощью ffmpeg...
-2025-04-19 23:53:19,870 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-19 23:53:19,870 - INFO - Загрузка модели Whisper...
-2025-04-19 23:53:20,397 - INFO - Распознавание речи...
-2025-04-19 23:53:39,964 - INFO - Распознавание завершено.
-2025-04-19 23:55:10,737 - INFO - Processing audio with duration 03:58.167
-2025-04-19 23:55:11,288 - INFO - VAD filter removed 00:22.935 of audio
-2025-04-19 23:55:21,915 - INFO - Detected language 'en' with probability 1.00
-2025-04-20 00:00:19,373 - INFO - Готово! Полученный результат находится в "results"
-2025-04-20 00:00:19,523 - INFO - Генерация технического задания GPT...
-2025-04-20 00:00:27,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-04-20 00:00:27,793 - INFO - Техническое задание сохранено в: results\interview_004\technical_specification.txt
-2025-04-20 00:39:03,466 - INFO - PyTorch version 2.6.0 available.
-2025-04-20 00:39:04,198 - INFO - Приложение запущено.
-2025-04-20 00:39:04,198 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
-2025-04-20 00:39:04,242 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-20 00:39:04,242 - INFO - Загрузка модели Whisper...
-2025-04-20 00:39:04,776 - INFO - Распознавание речи...
-2025-04-20 00:39:06,547 - INFO - Распознавание завершено.
-2025-04-20 00:39:24,141 - INFO - Processing audio with duration 00:25.565
-2025-04-20 00:39:24,207 - INFO - VAD filter removed 00:00.000 of audio
-2025-04-20 00:39:35,080 - INFO - Detected language 'ru' with probability 1.00
-2025-04-20 00:40:42,376 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
-2025-04-20 00:40:42,381 - INFO - Готово! Полученный результат находится в "results"
-2025-04-20 00:40:42,383 - INFO - Генерация технического задания GPT...
-2025-04-20 00:40:46,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-04-20 00:40:46,020 - INFO - Техническое задание сохранено в: results\interview_005\technical_specification.txt
-2025-04-20 00:42:13,092 - INFO - PyTorch version 2.6.0 available.
-2025-04-20 00:42:13,807 - INFO - Приложение запущено.
-2025-04-20 00:42:13,808 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
-2025-04-20 00:42:13,851 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-20 00:42:13,851 - INFO - Загрузка модели Whisper...
-2025-04-20 00:42:14,393 - INFO - Распознавание речи...
-2025-04-20 00:42:16,374 - INFO - Распознавание завершено.
-2025-04-20 00:42:33,923 - INFO - Processing audio with duration 00:25.565
-2025-04-20 00:42:33,991 - INFO - VAD filter removed 00:00.000 of audio
-2025-04-20 00:42:44,774 - INFO - Detected language 'ru' with probability 1.00
-2025-04-20 00:43:26,322 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
-2025-04-20 00:43:26,327 - INFO - Готово! Полученный результат находится в "results"
-2025-04-20 00:43:26,327 - INFO - Генерация технического задания GPT...
-2025-04-20 00:43:30,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-04-20 00:43:30,524 - INFO - Техническое задание сохранено в: ../results\interview_001\technical_specification.txt
-2025-04-20 01:16:37,520 - INFO - PyTorch version 2.6.0 available.
-2025-04-20 01:16:38,510 - INFO - Приложение запущено.
-2025-04-20 01:16:38,511 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
-2025-04-20 01:16:38,563 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-20 01:16:38,563 - INFO - Загрузка модели Whisper...
-2025-04-20 01:17:42,399 - INFO - Распознавание речи...
-2025-04-20 01:17:44,661 - INFO - Распознавание завершено.
-2025-04-20 01:38:01,724 - INFO - PyTorch version 2.6.0 available.
-2025-04-20 01:38:02,458 - INFO - Приложение запущено.
-2025-04-20 01:38:02,459 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
-2025-04-20 01:38:02,504 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-20 01:38:02,504 - INFO - Загрузка модели Whisper...
-2025-04-20 01:38:21,426 - INFO - Распознавание речи...
-2025-04-20 01:38:23,281 - INFO - Распознавание завершено.
-2025-04-20 01:43:43,844 - INFO - Processing audio with duration 00:25.565
-2025-04-20 01:43:43,909 - INFO - VAD filter removed 00:00.000 of audio
-2025-04-20 01:43:54,532 - INFO - Detected language 'ru' with probability 0.99
-2025-04-20 01:55:15,737 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
-2025-04-20 01:55:15,742 - INFO - Готово! Полученный результат находится в "results"
-2025-04-20 01:55:15,743 - INFO - Генерация технического задания GPT...
-2025-04-20 01:55:19,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-04-20 01:55:19,757 - INFO - Техническое задание сохранено в: results\interview_006\technical_specification.txt
-2025-04-20 02:05:02,191 - INFO - PyTorch version 2.6.0+cu118 available.
-2025-04-20 02:05:02,944 - INFO - Приложение запущено.
-2025-04-20 02:05:02,945 - INFO - Извлечение аудио из .\moovies\sobes.mp4 с помощью ffmpeg...
-2025-04-20 02:05:02,991 - INFO - Аудио сохранено в audio_output/audio.wav
-2025-04-20 02:05:02,991 - INFO - Загрузка модели Whisper...
-2025-04-20 02:05:03,830 - INFO - Распознавание речи...
-2025-04-20 02:05:05,012 - INFO - Распознавание завершено.
-2025-04-20 02:05:23,228 - INFO - Processing audio with duration 00:25.565
-2025-04-20 02:05:23,315 - INFO - VAD filter removed 00:00.000 of audio
-2025-04-20 02:05:33,665 - INFO - Detected language 'ru' with probability 1.00
-2025-04-20 02:06:16,865 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
-2025-04-20 02:06:16,870 - INFO - Готово! Полученный результат находится в "results"
-2025-04-20 02:06:16,871 - INFO - Генерация технического задания GPT...
-2025-04-20 02:06:19,963 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-04-20 02:06:19,968 - INFO - Техническое задание сохранено в: results\interview_007\technical_specification.txt
+2025-04-21 11:46:35,711 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 11:46:37,657 - INFO - Приложение запущено.
+2025-04-21 11:46:37,657 - INFO - Извлечение аудио из .\test_moovies\sobes.mp4 с помощью ffmpeg...
+2025-04-21 11:46:38,157 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 11:46:38,157 - INFO - Загрузка модели Whisper...
+2025-04-21 11:46:40,091 - INFO - Распознавание речи...
+2025-04-21 11:46:42,095 - INFO - Распознавание завершено.
+2025-04-21 11:47:06,167 - INFO - Processing audio with duration 00:25.565
+2025-04-21 11:47:06,344 - INFO - VAD filter removed 00:00.000 of audio
+2025-04-21 11:47:16,714 - INFO - Detected language 'ru' with probability 1.00
+2025-04-21 11:48:04,565 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-21 11:48:04,570 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 11:48:04,571 - INFO - Генерация технического задания GPT...
+2025-04-21 11:48:04,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-04-21 11:49:41,395 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 11:49:42,090 - INFO - Приложение запущено.
+2025-04-21 11:49:42,090 - INFO - Извлечение аудио из .\test_moovies\sozvon.MP4 с помощью ffmpeg...
+2025-04-21 11:49:42,419 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 11:49:42,419 - INFO - Загрузка модели Whisper...
+2025-04-21 11:49:43,189 - INFO - Распознавание речи...
+2025-04-21 11:50:02,774 - INFO - Распознавание завершено.
+2025-04-21 11:54:00,858 - INFO - Processing audio with duration 10:09.917
+2025-04-21 11:54:02,185 - INFO - VAD filter removed 00:01.728 of audio
+2025-04-21 11:54:12,467 - INFO - Detected language 'ru' with probability 0.97
+2025-04-21 12:06:42,102 - WARNING - Punctuation restoration is not available for ru language. Using the original punctuation.
+2025-04-21 12:06:42,142 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 12:06:42,144 - INFO - Генерация технического задания GPT...
+2025-04-21 12:07:13,800 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 12:07:13,808 - INFO - Техническое задание сохранено в: results\interview_001\technical_specification.txt
+2025-04-21 12:58:05,591 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 12:58:06,415 - INFO - Приложение запущено.
+2025-04-21 12:58:06,416 - INFO - Извлечение аудио из .\test_moovies\Untitled.mp4 с помощью ffmpeg...
+2025-04-21 12:58:06,500 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 12:58:06,500 - INFO - Загрузка модели Whisper...
+2025-04-21 12:58:07,256 - INFO - Распознавание речи...
+2025-04-21 12:58:18,023 - INFO - Распознавание завершено.
+2025-04-21 12:58:57,785 - INFO - Processing audio with duration 01:23.035
+2025-04-21 12:58:57,988 - INFO - VAD filter removed 00:00.939 of audio
+2025-04-21 12:59:08,983 - INFO - Detected language 'en' with probability 1.00
+2025-04-21 13:09:58,217 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 13:11:02,504 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 13:11:03,244 - INFO - Приложение запущено.
+2025-04-21 13:11:42,176 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 13:11:42,903 - INFO - Приложение запущено.
+2025-04-21 13:11:42,903 - INFO - Извлечение аудио из .\test_moovies\sozvon1_english.mp4 с помощью ffmpeg...
+2025-04-21 13:11:42,981 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 13:11:42,981 - INFO - Загрузка модели Whisper...
+2025-04-21 13:11:43,755 - INFO - Распознавание речи...
+2025-04-21 13:11:53,190 - INFO - Распознавание завершено.
+2025-04-21 13:12:30,660 - INFO - Processing audio with duration 01:23.035
+2025-04-21 13:12:30,846 - INFO - VAD filter removed 00:00.939 of audio
+2025-04-21 13:12:41,255 - INFO - Detected language 'en' with probability 1.00
+2025-04-21 13:14:24,304 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 13:14:24,421 - INFO - Генерация технического задания GPT...
+2025-04-21 13:14:55,231 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 13:14:55,234 - INFO - Техническое задание сохранено в: results\example_callups_001\technical_specification.txt
+2025-04-21 13:22:30,308 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 13:22:31,031 - INFO - Приложение запущено.
+2025-04-21 13:22:31,031 - INFO - Извлечение аудио из .\test_moovies\sozvon1_english.mp4 с помощью ffmpeg...
+2025-04-21 13:22:31,111 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 13:22:31,111 - INFO - Загрузка модели Whisper...
+2025-04-21 13:22:31,862 - INFO - Распознавание речи...
+2025-04-21 13:22:38,031 - INFO - Распознавание завершено.
+2025-04-21 13:23:16,012 - INFO - Processing audio with duration 01:23.035
+2025-04-21 13:23:16,204 - INFO - VAD filter removed 00:00.939 of audio
+2025-04-21 13:23:26,666 - INFO - Detected language 'en' with probability 1.00
+2025-04-21 13:25:09,609 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 13:25:09,732 - INFO - Генерация технического задания GPT...
+2025-04-21 13:26:58,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 13:26:58,774 - INFO - Техническое задание сохранено в: results\example_callups_003\technical_specification.txt
+2025-04-21 14:13:32,600 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 14:13:33,656 - INFO - Приложение запущено.
+2025-04-21 14:13:33,657 - INFO - Извлечение аудио из .\test_moovies\dialog_sozvon2.mp4 с помощью ffmpeg...
+2025-04-21 14:13:34,221 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 14:13:34,221 - INFO - Загрузка модели Whisper...
+2025-04-21 14:13:34,971 - INFO - Распознавание речи...
+2025-04-21 14:14:00,415 - INFO - Распознавание завершено.
+2025-04-21 14:19:36,780 - INFO - Processing audio with duration 15:00.005
+2025-04-21 14:19:38,738 - INFO - VAD filter removed 00:15.509 of audio
+2025-04-21 14:19:49,736 - INFO - Detected language 'en' with probability 1.00
+2025-04-21 14:35:59,268 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 14:35:59,414 - INFO - Генерация технического задания GPT...
+2025-04-21 14:35:59,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-04-21 14:37:18,807 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 14:37:19,542 - INFO - Приложение запущено.
+2025-04-21 14:37:19,542 - INFO - Извлечение аудио из .\test_moovies\dialog_sozvon2.mp4 с помощью ffmpeg...
+2025-04-21 14:37:20,114 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 14:37:20,114 - INFO - Загрузка модели Whisper...
+2025-04-21 14:37:20,938 - INFO - Распознавание речи...
+2025-04-21 14:37:44,025 - INFO - Распознавание завершено.
+2025-04-21 14:43:17,973 - INFO - Processing audio with duration 15:00.005
+2025-04-21 14:43:19,935 - INFO - VAD filter removed 00:15.509 of audio
+2025-04-21 14:43:30,811 - INFO - Detected language 'en' with probability 1.00
+2025-04-21 14:59:23,528 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 14:59:23,674 - INFO - Генерация технического задания GPT...
+2025-04-21 15:00:00,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 15:00:00,832 - INFO - Техническое задание сохранено в: results\example_callups_004\technical_specification.txt
+2025-04-21 15:08:22,356 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 15:08:23,161 - INFO - Приложение запущено.
+2025-04-21 15:08:23,161 - INFO - Извлечение аудио из .\test_moovies\dialog_sozvon2.mp4 с помощью ffmpeg...
+2025-04-21 15:08:23,734 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 15:08:23,734 - INFO - Загрузка модели Whisper...
+2025-04-21 15:08:24,514 - INFO - Распознавание речи...
+2025-04-21 15:08:47,297 - INFO - Распознавание завершено.
+2025-04-21 15:14:46,789 - INFO - Processing audio with duration 15:00.005
+2025-04-21 15:14:48,732 - INFO - VAD filter removed 00:15.541 of audio
+2025-04-21 15:14:57,238 - INFO - Detected language 'en' with probability 1.00
+2025-04-21 15:28:19,866 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 15:28:20,012 - INFO - Генерация технического задания GPT...
+2025-04-21 15:28:45,191 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 15:28:45,205 - INFO - Техническое задание сохранено в: results\example_callups_005\technical_specification.txt
+2025-04-21 15:36:33,642 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 15:36:34,421 - INFO - Приложение запущено.
+2025-04-21 15:36:34,422 - INFO - Извлечение аудио из .\test_moovies\ai_strategia.mp4 с помощью ffmpeg...
+2025-04-21 15:36:35,340 - INFO - Аудио сохранено в audio_output/audio.wav
+2025-04-21 15:36:35,340 - INFO - Загрузка модели Whisper...
+2025-04-21 15:36:36,092 - INFO - Распознавание речи...
+2025-04-21 15:36:47,452 - INFO - Распознавание завершено.
+2025-04-21 15:50:28,941 - INFO - Processing audio with duration 36:21.632
+2025-04-21 15:50:33,544 - INFO - VAD filter removed 04:32.512 of audio
+2025-04-21 15:50:42,307 - INFO - Detected language 'en' with probability 0.99
+2025-04-21 16:19:47,320 - INFO - Готово! Полученный результат находится в "results"
+2025-04-21 16:19:47,481 - INFO - Генерация технического задания GPT...
+2025-04-21 16:21:18,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 16:21:18,205 - INFO - Техническое задание сохранено в: results\example_callups_006\technical_specification.txt
+2025-04-21 16:52:29,060 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 16:52:29,876 - INFO - Приложение запущено.
+2025-04-21 16:52:29,876 - INFO - Генерация технического задания GPT...
+2025-04-21 16:54:28,931 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 16:54:29,696 - INFO - Приложение запущено.
+2025-04-21 16:54:29,697 - INFO - Генерация технического задания GPT...
+2025-04-21 16:55:32,324 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 16:59:57,120 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 16:59:57,921 - INFO - Приложение запущено.
+2025-04-21 16:59:57,921 - INFO - Генерация технического задания GPT...
+2025-04-21 17:00:55,969 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 17:00:55,974 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 17:02:46,722 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 17:02:47,497 - INFO - Приложение запущено.
+2025-04-21 17:02:47,497 - INFO - Генерация технического задания GPT...
+2025-04-21 17:06:58,455 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 17:06:59,210 - INFO - Приложение запущено.
+2025-04-21 17:06:59,210 - INFO - Генерация технического задания GPT...
+2025-04-21 17:08:16,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 17:08:16,758 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 17:21:30,741 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 17:21:31,488 - INFO - Приложение запущено.
+2025-04-21 17:21:31,488 - INFO - Генерация технического задания GPT...
+2025-04-21 17:22:29,297 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 17:22:29,304 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 17:32:37,480 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 17:32:38,212 - INFO - Приложение запущено.
+2025-04-21 17:32:38,212 - INFO - Генерация технического задания GPT...
+2025-04-21 17:33:55,084 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 17:33:55,200 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 17:36:51,204 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 17:36:51,946 - INFO - Приложение запущено.
+2025-04-21 17:36:51,946 - INFO - Генерация технического задания GPT...
+2025-04-21 17:38:45,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 17:38:45,475 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 17:51:30,160 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 17:51:31,040 - INFO - Приложение запущено.
+2025-04-21 17:51:31,040 - INFO - Генерация технического задания GPT...
+2025-04-21 17:52:55,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 17:52:55,163 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 18:01:28,447 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 18:01:29,289 - INFO - Приложение запущено.
+2025-04-21 18:01:29,290 - INFO - Генерация технического задания GPT...
+2025-04-21 18:01:41,428 - INFO - Retrying request to /chat/completions in 0.404639 seconds
+2025-04-21 18:02:03,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 18:02:04,006 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 18:06:39,847 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 18:06:40,639 - INFO - Приложение запущено.
+2025-04-21 18:06:40,639 - INFO - Генерация технического задания GPT...
+2025-04-21 18:07:10,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 18:07:10,074 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 18:07:40,891 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 18:07:41,710 - INFO - Приложение запущено.
+2025-04-21 18:07:41,710 - INFO - Генерация технического задания GPT...
+2025-04-21 18:08:33,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 18:08:33,623 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 18:09:34,082 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 18:09:34,878 - INFO - Приложение запущено.
+2025-04-21 18:09:34,878 - INFO - Генерация технического задания GPT...
+2025-04-21 18:09:40,117 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 18:09:40,121 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 18:11:02,900 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 18:11:03,696 - INFO - Приложение запущено.
+2025-04-21 18:11:03,696 - INFO - Генерация технического задания GPT...
+2025-04-21 18:11:08,370 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 18:11:08,392 - INFO - Результат успешно сохранен в airesult\result_1.txt
+2025-04-21 18:13:08,965 - INFO - PyTorch version 2.6.0+cu118 available.
+2025-04-21 18:13:09,763 - INFO - Приложение запущено.
+2025-04-21 18:13:09,763 - INFO - Генерация технического задания GPT...
+2025-04-21 18:14:04,867 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-21 18:14:04,877 - INFO - Результат успешно сохранен в airesult\result_1.txt
